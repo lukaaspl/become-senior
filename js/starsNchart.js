@@ -262,13 +262,6 @@ setTimeout(() => infoBox.classList.add('shown'), 1000);
 for (container of starsContainers)
     drawStars(container, starsNumber, true);
 
-
-
-
-
-
-
-
 // chart.on('created', () => {
 //     if (window.__anim4329874) {
 //         clearTimeout(window.__anim4329874);
