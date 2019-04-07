@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stars.js</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Become a senior<i class="separator fas fa-arrow-circle-right"></i>Close the wheel</h1>
+    </header>
+    <div class="overwrapper">
+        <div class="wrapper">
+            <table id="skills">
+                <tr>
+                    <th>HTML</th>
+                    <td>
+                        <div class="stars_html"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>CSS</th>
+                    <td>
+                        <div class="stars_css"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>JavaScript</th>
+                    <td>
+                        <div class="stars_javascript"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>React.js</th>
+                    <td>
+                        <div class="stars_reactjs"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Node.js</th>
+                    <td>
+                        <div class="stars_nodejs"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>GIT</th>
+                    <td>
+                        <div class="stars_git"></div>
+                    </td>
+                </tr>
+            </table>
+            <button id="show-result">Show how far I am</button>
+            <div class="ct-chart ct-perfect-fourth">
+                <div class="result">
+                    <div class="percent"></div>
+                    <div class="to-go"></div>
+                </div>
+            </div>
+        </div>
+        <div class="infoBox"><i class="fas fa-info-circle"></i>But first rate your skills!</div>
+
+    </div>
+
+
+
+    <div style="opacity: 0">
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="js/starsNchart.js"></script>
+</body>
+
+</html>
